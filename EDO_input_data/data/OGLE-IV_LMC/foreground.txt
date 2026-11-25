@@ -3,8 +3,9 @@
 # 33 points, tE = 5.65 - 8868 days; the values sum to 20.7 events.
 # Source: digitized from Mroz et al. (2024), Nature 632, 749, Extended Data Fig. 6b
 # (total of LMC self-lensing and the Cautun et al. 2020 Milky Way disc model; the paper quotes 20.4 events).
-# Tool input: Step 6 (background) - enter the path to this file; answer 'y' when asked
-# whether it is a histogram, and 0.1 for the bin width in log10(tE).
+# Tool input: Step 6 (background) - answer 'n' to 'Use the default OGLE-IV/LMC background
+# table?', enter the path to this file, answer 'y' when asked whether it is a histogram,
+# and 0.1 for the bin width in log10(tE).
 # Columns: tE [days], expected events per 0.1-dex bin.
 # tE_days                 events_per_bin
 5.648052620213315         0.012763266237092591

@@ -1,0 +1,5 @@
+# OGLE-IV, Large Magellanic Cloud: Einstein timescales tE [days] of the 13 events
+# in the statistical sample of Mroz et al. (2024), ApJS, doi:10.3847/1538-4365/ad452e
+# (used for the limits in Mroz et al. 2024, Nature 632, 749).
+# Tool input: Step 4, method L - copy the list on the last line and paste it at the prompt.
+[35.165, 165.941, 52.127, 13.497, 102.756, 64.595, 41.474, 45.051, 7.007, 88.188, 31.278, 41.800, 13.790]

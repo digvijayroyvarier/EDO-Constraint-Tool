@@ -1,0 +1,6 @@
+# OGLE-IV, Milky Way: foreground (non-dark-matter) event counts N_FG per tE bin.
+# 25 values, one per bin of bin_edges.txt, in the same order (total 2680).
+# Source: TODO - add reference
+# Tool input: Step 4, method B - answer 'direct' when asked for the foreground, then
+# copy the list on the last line and paste it at the per-bin N_FG prompt.
+[1, 2, 2, 1, 0, 1, 2, 3, 15.1870979403034, 28.047520392103742, 58.55569289289388, 115.99405526347351, 189.52776627296888, 250.9918835054892, 326.6480221950095, 338.55507365213, 363.39921354911974, 339.1058561781739, 247.6457933512859, 200.89115267461136, 98.08732822419337, 52.27093936473822, 28.850229404604107, 11.218384050092011, 3]

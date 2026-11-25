@@ -7,7 +7,7 @@ Example inputs for the EDO microlensing constraint tool, one folder per survey a
 | `EROS2_LMC/efficiency.txt` | EROS-2 LMC detection efficiency vs $t_E$ (150 points) | Step 5: file path |
 | `EROS2_SMC/efficiency.txt` | EROS-2 SMC detection efficiency vs $t_E$ (151 points) | Step 5: file path |
 | `OGLE-IV_LMC/efficiency.txt` | OGLE-IV LMC detection efficiency vs $t_E$ (129 points) | Step 5: file path |
-| `OGLE-IV_LMC/foreground.txt` | OGLE-IV LMC expected foreground events per 0.1-dex $t_E$ bin (33 points) | Step 6: file path; histogram `y`, bin width `0.1` |
+| `OGLE-IV_LMC/foreground.txt` | OGLE-IV LMC expected foreground events per 0.1-dex $t_E$ bin (33 points) | Step 6: n to the default-table question, then file path; histogram y, bin width 0.1 |
 | `OGLE-IV_LMC/observed_tE.txt` | $t_E$ of the 13 observed OGLE-IV LMC events | Step 4, method L: paste the list |
 | `OGLE-IV_MW/efficiency.txt` | OGLE-IV Milky Way detection efficiency vs $t_E$ (25 points) | Step 5: file path |
 | `OGLE-IV_MW/bin_edges.txt` | 26 $t_E$ bin edges (25 bins, 0.1–300 days) | Step 4, method B: paste the list |

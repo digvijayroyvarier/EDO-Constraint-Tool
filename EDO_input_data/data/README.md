@@ -20,6 +20,19 @@ Example inputs for the EDO microlensing constraint tool, one folder per survey a
 
 All timescales are in days. `foreground.txt` is a histogram (expected events per 0.1-dex bin in $\log_{10} t_E$), not a density. `foreground_bin_counts.txt` and `efficiency.txt` in `OGLE-IV_MW/` use the bins defined by `bin_edges.txt`, in the same order.
 
+## OGLE-III and IV LMC per-field data
+Download from Mróz et al. (2024, ApJS 273, 4), archived at doi:10.5281/zenodo.10879576
+(mirror: https://www.astrouw.edu.pl/ogle/ogle4/LMC_OPTICAL_DEPTH/):
+`table1.txt`, `eff_o3_o4.tar.gz`, `eff_o4.tar.gz`.
+
+At Step 2, choose `per_field_bulk`, then answer:
+- two sub-populations with different baselines: `y`
+- long-baseline star-count column: `7`, exposure: `6839`
+- short-baseline star-count column: `8`, exposure: `3546`
+- star-count file: path to `table1.txt`; multiplier: `1000`; field-ID column: `first`
+- long-baseline efficiencies: path to `eff_o3_o4.tar.gz`
+- short-baseline efficiencies: path to `eff_o4.tar.gz`
+
 ## Sources
 
 - `OGLE-IV_LMC/foreground.txt`: digitized from Mróz et al. (2024), Nature 632, 749, Extended Data Fig. 6b.
